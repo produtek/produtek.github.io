@@ -12,8 +12,6 @@ header
     background:linear-gradient(#222,rgb(40,70,94),rgb(59,87,101));
 }
 
-
-
 header img
 {
     width:90px;
@@ -21,6 +19,8 @@ header img
 
 header span
 {
+    font-family: Britannic Bold;
+    font-style: italic;
     font-size: 50px;
     color: white;
     margin-left: 20px;
