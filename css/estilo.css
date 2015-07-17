@@ -15,17 +15,32 @@ header
 header img
 {
     width:90px;
+    display:inline-block;
+    vertical-align: top;
 }
 
-header span
+header div
+{
+    display:inline-block;
+}
+
+header #titulo, header #logotipo
 {
     font-family: Britannic Bold;
     font-style: italic;
-    font-size: 50px;
+    font-size: 44px;
     color: white;
-    margin-left: 20px;
-    display: inline-block;
     vertical-align: middle;
+    text-shadow: -1px 2px 0px #666, -1px 2px 1px #888, -1px 2px 2px #aaa;
+}
+
+header #logotipo
+{
+    font-size:18px;
+    display: inline-block;
+    margin-bottom:5px;
+    margin-top:-10px;
+    text-shadow: -1px 1px 0px #777, -1px 1px 1px #999;
 }
 
 section
